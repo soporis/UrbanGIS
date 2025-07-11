@@ -14,6 +14,10 @@ Login screen
 Smart screen
 <img width="836" height="442" alt="image" src="https://github.com/user-attachments/assets/65034c29-557f-47e1-b2da-955424cf301f" />
 
+After install 
+login : email@yourwebsite.com
+password : admin
+
 Donation
 Paypal = thomas.iaconelli@gmail.com
 
