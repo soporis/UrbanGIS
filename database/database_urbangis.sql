@@ -103,9 +103,7 @@ CREATE INDEX idx_interventions_date ON interventions(date);
 
 -- Données de test
 INSERT INTO users (email, password_hash, name, role) VALUES 
-('admin@urbangis.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Administrateur', 'administrator'),
-('manager@urbangis.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Gestionnaire', 'manager'),
-('operator@urbangis.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Opérateur', 'operator');
+('email@yourwebsite.com', '$2a$12$aJiwKtDVtU4W0kRPc77owuKNTDisU0bxV4j28GsMmkUXKt5YYhk9S', 'Administrateur', 'administrator');
 
 INSERT INTO projects (name, description) VALUES 
 ('Centre Ville', 'Inventaire et maintenance du mobilier urbain du centre ville'),
